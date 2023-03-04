@@ -1,1 +1,3 @@
 # U-Net-from-scratch
+
+The U-Net architecture is a fully convolutional neural network designed for semantic segmentation tasks, which involves assigning a label to each pixel in an image. It consists of an encoder network that downsamples the input image and a decoder network that upsamples the output to the original image size, with skip connections between them to preserve spatial information. The architecture has become a popular choice for image segmentation tasks due to its effectiveness and efficiency and is widely used in various fields such as medical imaging, self-driving cars, and satellite imagery analysis. Here I provide an implementation of the U-Net architecture from scratch, using PyTorch.
